@@ -1,0 +1,10 @@
+mov ax,x
+mov bx,ax =x
+add ax,ax = 2x
+add ax,ax = 4x
+add ax,ax = 8x
+mov cx,ax = 8x
+add ax,ax = 16x
+add ax,ax = 32x
+add ax,cx = 40x
+add ax,bx = 41x

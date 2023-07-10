@@ -1,0 +1,13 @@
+m:mov al,x===1
+mov bl,y
+mov dx,S1
+jmp f1
+f1:jmp dx
+S1:
+mov [0500],cl
+mov al,x====5
+mov bl,y
+mov dx,S2
+jmp f2
+mov [0501],cl
+S2:

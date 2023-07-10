@@ -1,0 +1,19 @@
+mov cx,y	;cx =y
+mov ax,cx	;ax = y
+add cx,cx ;cx =2y
+add cx,cx ;cx=4y
+mov bx,cx ;bx = 4y
+add cx,cx ;cx = 8y
+add cx,bx ;cx = 12y
+add ax,x	;ax= x+y
+mov bx,ax  ;bx = T
+add ax,ax  ;ax = 2T
+add ax,ax  ;ax = 4T
+add ax,ax  ;ax = 8T
+mov dx,ax  ;dx = 8T
+add ax,ax  ;ax = 16T
+add ax,ax  ;ax = 32T
+add ax,dx  ;ax = 40T
+add ax,bx  ;ax = 41T
+add ax,cx ; ax = 41T +12y
+

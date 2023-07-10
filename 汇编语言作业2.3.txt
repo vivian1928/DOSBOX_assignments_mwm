@@ -1,0 +1,16 @@
+mov al,x ; al = x
+mov bl,y ;bl = y
+add al,bl ;al = x + y = T
+mov cl,al ;cl = x + y = T
+add al,al ; al = 2T
+add al, al ; al = 4T
+add al,al ; al = 8T
+add cl,al ; cl = 9T
+add al,al ; al = 16T
+add al,al ; al = 32T
+add cl,al ; cl  = 41T
+add bl,bl; bl  =2y
+add bl,bl; bl = 4y
+add cl,bl; cl =41T +4y
+add bl,bl;bl = 8y
+add cl,bl;  cl = 41T + 12y
